@@ -1,0 +1,23 @@
+{
+    "name": "theme-flatui",
+    "displayName": "flatUi",
+    "description": "A flat ui inspired syntax for vscode",
+    "version": "0.0.1",
+    "publisher": "danibram",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flat UI",
+                "uiTheme": "vs-dark",
+                "path": "./themes/FlatUI.tmtheme"
+            }
+        ]
+    }
+}
