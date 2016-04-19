@@ -409,6 +409,32 @@
                 <string>#E6DB74</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Decorators</string>
+            <key>scope</key>
+            <string>tag.decorator.js tag.decorator.js punctuation.definition.tag.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#E6DB74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>ES7 Bind Operator</string>
+            <key>scope</key>
+            <string>source.js constant.other.object.key.js string.unquoted.label.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#e74c3c</string>
+            </dict>
+        </dict>
     </array>
     <key>uuid</key>
     <string>5EAF4173-5DDE-4D64-A1E8-C1671C7EE339</string>
