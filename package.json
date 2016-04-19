@@ -5,11 +5,18 @@
     "version": "0.0.1",
     "publisher": "danibram",
     "engines": {
-        "vscode": "^1.0.0"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
     ],
+    "bugs": {
+        "url": "https://github.com/danibram/flat-ui-syntax-vscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danibram/flat-ui-syntax-vscode.git"
+    },
     "icon": "icon.png",
     "contributes": {
         "themes": [
