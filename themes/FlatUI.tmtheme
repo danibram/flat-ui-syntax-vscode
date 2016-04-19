@@ -73,7 +73,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#b094de</string>
+                <string>#B094DE</string>
             </dict>
         </dict>
         <dict>
@@ -84,7 +84,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#b094de</string>
+                <string>#B094DE</string>
             </dict>
         </dict>
         <dict>
@@ -156,7 +156,7 @@
                 <key>fontStyle</key>
                 <string>underline</string>
                 <key>foreground</key>
-                <string>#74ed78</string>
+                <string>#74ED78</string>
             </dict>
         </dict>
         <dict>
@@ -169,7 +169,7 @@
                 <key>fontStyle</key>
                 <string>italic underline</string>
                 <key>foreground</key>
-                <string>#74ed78</string>
+                <string>#74ED78</string>
             </dict>
         </dict>
         <dict>
@@ -252,15 +252,15 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Library class/type</string>
+            <string>Library class&#x2f;type</string>
             <key>scope</key>
             <string>support.type, support.class</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
-                <string>#74ed78</string>
+                <string>#1ABC9C</string>
+                <key>fontStyle</key>
+                <string> italic</string>
             </dict>
         </dict>
         <dict>
@@ -272,6 +272,8 @@
             <dict>
                 <key>fontStyle</key>
                 <string></string>
+                <key>foreground</key>
+                <string>#2980B9</string>
             </dict>
         </dict>
         <dict>
@@ -399,7 +401,6 @@
                 <string>#AE81FF</string>
             </dict>
         </dict>
-
         <dict>
             <key>scope</key>
             <string>entity.name.filename.find-in-files</string>
@@ -438,5 +439,9 @@
     </array>
     <key>uuid</key>
     <string>5EAF4173-5DDE-4D64-A1E8-C1671C7EE339</string>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>semanticClass</key>
+    <string>theme.dark.flat_ui</string>
 </dict>
 </plist>
