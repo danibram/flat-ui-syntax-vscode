@@ -2,8 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>author</key>
+    <string>Daniel Biedma</string>
     <key>name</key>
     <string>Flat UI</string>
+    <key>comment</key>
+    <string>https://github.com/danibram/flat-ui-syntax-vscode.git</string>
+    <key>semanticClass</key>
+    <string>theme.flatui</string>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>gutterSettings</key>
+    <dict>
+        <key>background</key>
+        <string>#3a3432</string>
+        <key>divider</key>
+        <string>#3a3432</string>
+        <key>foreground</key>
+        <string>#5c5855</string>
+        <key>selectionBackground</key>
+        <string>#4a4543</string>
+        <key>selectionForeground</key>
+        <string>#807d7c</string>
+    </dict>
     <key>settings</key>
     <array>
         <dict>
@@ -47,7 +68,7 @@
             <key>name</key>
             <string>Comment</string>
             <key>scope</key>
-            <string>comment</string>
+            <string>comment, punctuation.definition.comment</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -194,6 +215,17 @@
             <dict>
                 <key>fontStyle</key>
                 <string>italic</string>
+                <key>foreground</key>
+                <string>#FD971F</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Arguments</string>
+            <key>scope</key>
+            <string>variable.parameter.function</string>
+            <key>settings</key>
+            <dict>
                 <key>foreground</key>
                 <string>#FD971F</string>
             </dict>
@@ -425,6 +457,28 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.definition.array, punctuation.definition.structure</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E6DB74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>ES7 Bind Operator</string>
             <key>scope</key>
             <string>source.js constant.other.object.key.js string.unquoted.label.js</string>
@@ -434,6 +488,58 @@
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#e74c3c</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SASS name</string>
+            <key>scope</key>
+            <string>entity.name.selector</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#e74c3c</string>
+            </dict>
+        </dict>
+         <dict>
+            <key>name</key>
+            <string>SASS LESS variables</string>
+            <key>scope</key>
+            <string>variable.less, variable.ref.sass, variable.decl.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#f4cf77</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>TS annotations</string>
+            <key>scope</key>
+            <string>annotation.parameters.ts</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#74ED78</string>
+                <key>fontStyle</key>
+                <string></string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>TS annotations</string>
+            <key>scope</key>
+            <string>annotation.function.name.ts, annotation.function.primitive.support.ts,annotation.entity.parameters.ts</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1ABC9C</string>
+                <key>fontStyle</key>
+                <string></string>
             </dict>
         </dict>
     </array>

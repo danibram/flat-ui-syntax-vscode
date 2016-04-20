@@ -2,7 +2,7 @@
     "name": "theme-flatui",
     "displayName": "flatUi",
     "description": "A flat ui inspired syntax for vscode",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "publisher": "danibram",
     "engines": {
         "vscode": "*"
