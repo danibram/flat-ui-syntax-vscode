@@ -148,8 +148,6 @@
             <string>storage</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#ea6442</string>
             </dict>
@@ -161,8 +159,6 @@
             <string>storage.type</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#e74c3c</string>
             </dict>
@@ -184,11 +180,11 @@
             <key>name</key>
             <string>Inherited class</string>
             <key>scope</key>
-            <string>entity.other.inherited-class</string>
+            <string>entity.other.inherited-class, keyword.control.flow.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>italic underline</string>
+                <string>underline</string>
                 <key>foreground</key>
                 <string>#74ED78</string>
             </dict>
@@ -213,8 +209,6 @@
             <string>variable.parameter</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#FD971F</string>
             </dict>
@@ -234,7 +228,7 @@
             <key>name</key>
             <string>Tag name</string>
             <key>scope</key>
-            <string>entity.name.tag</string>
+            <string>entity.name.tag, support.type.property-name.json, keyword.control.flow.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -247,7 +241,7 @@
             <key>name</key>
             <string>Tag attribute</string>
             <key>scope</key>
-            <string>entity.other.attribute-name</string>
+            <string>entity.other.attribute-name, variable.language.this.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -291,8 +285,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#1ABC9C</string>
-                <key>fontStyle</key>
-                <string> italic</string>
             </dict>
         </dict>
         <dict>
@@ -449,8 +441,6 @@
             <string>tag.decorator.js tag.decorator.js punctuation.definition.tag.js</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#E6DB74</string>
             </dict>
@@ -484,8 +474,6 @@
             <string>source.js constant.other.object.key.js string.unquoted.label.js</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#e74c3c</string>
             </dict>
@@ -497,8 +485,6 @@
             <string>entity.name.selector</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#e74c3c</string>
             </dict>
@@ -510,8 +496,6 @@
             <string>variable.less, variable.ref.sass, variable.decl.sass</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#f4cf77</string>
             </dict>
