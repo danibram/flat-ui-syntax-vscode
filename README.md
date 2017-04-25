@@ -1,5 +1,7 @@
 # Flat UI Syntax theme
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danibram/flat-ui-syntax-vscode.svg)](https://greenkeeper.io/)
+
 ## Screenshot
 
 ![Flat-ui-syntax](https://raw.githubusercontent.com/danibram/flat-ui-syntax-vscode/master/screenshot.png)
