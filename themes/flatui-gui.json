@@ -353,7 +353,55 @@
         "editor.foreground": "#92cef1",
         "editorWhitespace.foreground": "#ABB2BF",
         "editor.lineHighlightBackground": "#2b3d49",
-        "editor.selectionBackground": "#364958"
+        "editor.selectionBackground": "#364958",
+        "statusBar.background": "#222c34",
+        "statusBar.debuggingBackground": "#FD971F",
+        "statusBar.noFolderBackground": "#222c34",
+        "titleBar.activeBackground": "#222c34",
+        "activityBar.background": "#222c34",
+        "activityBarBadge.background": "#4e5f6b",
+        "sideBar.background": "#19262D",
+        "sideBarSectionHeader.background": "#26323B",
+        "editorGroup.background": "#222c34",
+        "editorGroupHeader.tabsBackground": "#222c34",
+        "tab.border": "#364958",
+        "tab.inactiveBackground": "#222c34",
+        "tab.activeBackground": "#364958",
+        "list.activeSelectionBackground": "#364958",
+        "list.hoverBackground": "#4e5f6b",
+        "list.focusBackground": "#4e5f6b",
+        "list.inactiveSelectionBackground": "#364958",
+
+        //"peekView.border": "#92cef1",
+        "peekViewEditor.background": "#222c34",
+        "peekViewTitle.background": "#26323B",
+        "peekViewResult.background": "#4e5f6b",
+
+        // dropdown.background: Dropdown background.
+        "dropdown.background": "#222c34",
+        // dropdown.border: Dropdown border.
+        // dropdown.foreground: Dropdown foreground.
+
+        // Input Control
+        // input.background: Input box background.
+        "input.background": "#222c34",
+        "input.border": "#4e5f6b",
+        // input.foreground: Input box foreground.
+        // inputOption.activeBorder: Border color of activated options in input fields.
+        "inputOption.activeBorder": "#4e5f6b",
+        // inputValidation.errorBackground: Input validation background color for error severity.
+        // inputValidation.errorBorder: Input validation border color for error severity.
+        // inputValidation.infoBackground: Input validation background color for information severity.
+        // inputValidation.infoBorder: Input validation border color for information severity.
+        // inputValidation.warningBackground: Input validation background color for information warning.
+        // inputValidation.warningBorder: Input validation border color for warning severity.
+
+        "button.background": "#26323B",
+        //"button.foreground": "#92cef1",
+        "button.hoverBackground": "#364958"
+
+        //"contrastActiveBorder": "#f3f2f4"
+        //"contrastBorder": "#f3f2f4"
     },
-    "name": "Flat UI"
+    "name": "Flat UI + GUI"
 }
