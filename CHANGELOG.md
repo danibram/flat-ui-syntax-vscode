@@ -1,3 +1,7 @@
+# 3.0.0
+- Added vscode UI themed
+- New icon
+
 # 2.1.0
 - Migrate to a json syntax for the theme
 
