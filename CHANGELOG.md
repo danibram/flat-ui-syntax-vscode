@@ -1,4 +1,4 @@
-# 3.0.0
+# 3.0.1
 - Added vscode UI themed
 - New icon
 

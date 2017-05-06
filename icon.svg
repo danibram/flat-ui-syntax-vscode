@@ -8,7 +8,7 @@
     <rect id="Rectangle-Copy-2" stroke="none" fill="#73ED77" fill-rule="evenodd" x="0" y="90" width="120" height="30"></rect>
     <polygon id="Triangle" stroke="none" fill="#26323B" fill-rule="evenodd" points="2.84217094e-14 0 120 120 2.84217094e-14 120"></polygon>
     <text id="UI-FLAT" stroke="none" fill="none" font-family="FiraMono-Regular, Fira Mono" font-size="29" font-weight="normal" line-spacing="27">
-        <tspan x="10" y="90" fill="#5A7690">UI</tspan>
-        <tspan x="10" y="117" fill="#5A7690">FLAT</tspan>
+        <tspan x="8" y="85" fill="#5A7690">UI</tspan>
+        <tspan x="8" y="112" fill="#5A7690">FLAT</tspan>
     </text>
 </svg>
