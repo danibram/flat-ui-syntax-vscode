@@ -292,9 +292,9 @@
             "name": "Punctuation",
             "scope": [
                 "punctuation.definition.string",
-                "punctuation.definition.variable",
+                //"punctuation.definition.variable",
                 "punctuation.definition.string",
-                "punctuation.definition.parameters",
+                //"punctuation.definition.parameters",
                 "punctuation.definition.string"
             ],
             "settings": {
@@ -344,6 +344,16 @@
             "settings": {
                 "foreground": "#1ABC9C",
                 "fontStyle": ""
+            }
+        },
+        {
+            "name": "Object keys, TS grammar specific",
+            "scope": [
+                "meta.object-literal.key",
+                "meta.object-literal.key entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#ea6442"
             }
         }
     ],
