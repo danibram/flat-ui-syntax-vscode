@@ -355,6 +355,98 @@
             "settings": {
                 "foreground": "#ea6442"
             }
+        },
+
+        //Markdown
+        {
+            "name": "Markup Quote",
+            "scope": [
+                "markup.quote",
+                "markup.bold.markdown"
+            ],
+            "settings": {
+                "foreground": "#74ED78"
+            }
+        },
+        {
+            "name": "Markup Quote",
+            "scope": [
+                "punctuation.definition.string.begin.markdown",
+                "punctuation.definition.string.end.markdown",
+                "punctuation.definition.metadata.markdown"
+            ],
+            "settings": {
+                "foreground": "#92cef1"
+            }
+        },
+        {
+            "name": "Markup Quote",
+            "scope": [
+                "string.other.link.description.markdown",
+                "string.other.link.title.markdown"
+            ],
+            "settings": {
+                "foreground": "#1ABC9C"
+            }
+        },
+        {
+            "name": "Markup Lists",
+            "scope": "markup.list",
+            "settings": {
+                "foreground": "#f4cf77"
+            }
+        },
+        {
+            "name": "code",
+            "scope": [
+                "fenced_code.block.language",
+                "punctuation.definition.markdown"
+            ],
+            "settings": {
+                "foreground": "#FD971F"
+            }
+        },
+        {
+            "name": "Markup Styling",
+            "scope": "markup.bold, markup.italic",
+            "settings": {
+                "foreground": "#66D9EF"
+            }
+        },
+        {
+            "name": "Markup Inline",
+            "scope": "markup.inline.raw",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#FD971F"
+            }
+        },
+        {
+            "name": "Markup Setext Header",
+            "scope": "markup.heading.setext",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#e74c3c"
+            }
+        },
+        {
+            "name": "Markup Setext Header",
+            "scope": [
+                "markup.underline.link.image.markdown",
+                "markup.underline.link.markdown"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#e74c3c"
+            }
+        },
+        {
+            "name": "Markup Setext Header",
+            "scope": "markup.heading",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#e74c3c"
+            }
         }
     ],
     "colors": {

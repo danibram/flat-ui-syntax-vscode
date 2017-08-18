@@ -1,20 +1,36 @@
-A First Level Header
-====================
+# Heading
 
-A Second Level Header
----------------------
+## Sub-heading
 
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
+Paragraphs are separated
+by a blank line.
 
-The quick brown fox jumped over the lazy
-dog's back.
+Text attributes *italic*,
+**bold**, `monospace`.
 
-### Header 3
+---
 
-> This is a blockquote.
->
-> This is the second paragraph in the blockquote.
->
-> ## This is an H2 in a blockquote
+A [link](http://example.com).
+
+Shopping list:
+
+  * **apples**: asdasdasd
+  * oranges
+  * pears
+
+Numbered list:
+
+  1. apples
+  2. oranges
+  3. pears
+
+The rain---not the reign---in
+Spain.
+
+An ![image](http://example.com/stuff.jpg).
+
+> This is a quote
+
+```javascript
+let asda = 10
+```
