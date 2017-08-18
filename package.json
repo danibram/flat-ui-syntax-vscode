@@ -2,7 +2,7 @@
     "name": "theme-flatui",
     "displayName": "Flat UI",
     "description": "A flat ui inspired syntax for vscode, now with optional UI",
-    "version": "3.0.2",
+    "version": "3.1.0",
     "publisher": "danibram",
     "engines": {
         "vscode": "*"
@@ -17,7 +17,7 @@
         "type": "git",
         "url": "https://github.com/danibram/flat-ui-syntax-vscode.git"
     },
-    "icon": "icon.svg",
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {

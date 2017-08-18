@@ -1,3 +1,6 @@
+# 3.1.0
+- Initial Markdown support
+
 # 3.0.2
 - Added vscode UI themed
 - New icon
